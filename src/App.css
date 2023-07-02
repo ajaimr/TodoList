@@ -1,0 +1,51 @@
+body{
+    background-color: #00AA55;
+}
+table,th,td{
+    border: 1px solid white;
+    width: 100%;
+}
+.App {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .todo-input {
+    margin-bottom: 20px;
+  }
+  
+  .todo-input input {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .todo-input button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+  margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .todo-list li span {
+    flex-grow: 1;
+    font-size: 42px;
+    margin-right: 66px;
+    font-family: Agdasima;
+  }
+  
+  .todo-list li button {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+  
